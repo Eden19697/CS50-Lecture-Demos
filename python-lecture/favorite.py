@@ -1,0 +1,15 @@
+import csv
+
+with open("favorites.csv", "r") as file:
+    reader = csv.DictReader(file)
+    counts = {}
+    for row in reader:
+        favorite = row["language"]
+        if favorite in counts:
+            counts[favorite] += 1
+        else:
+            counts[favorite] = 1#先判断key-value pair是否被创建
+
+for favorite in sorted(counts, key = counts.get, reverse=True):#counts.get代表的是counts的obj的val作为key
+    #传入进行sorting，从小到大
+    print(f"{favorite}: {counts[favorite]}")

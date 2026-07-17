@@ -5,3 +5,4 @@ __pycache__/
 *.o
 *.dSYM/
 lecture-demos/*.out
+flask_session/
