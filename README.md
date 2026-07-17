@@ -1,6 +1,6 @@
 # CS50 Lecture Demos
 
-Section and lecture code-alongs from my 2025 CS50 self-study — not graded problem set submissions.
+Section and lecture code-alongs from my CS50 self-study (August 2025 – February 2026) — not graded problem set submissions.
 
 This is deliberately kept separate from my private CS50 problem-set archive: these files are demo code written during lectures/sections (pointers, arrays, memory, recursion, searching, HTML/CSS/JS basics, SQL, Flask sessions, etc.), not solutions to graded assignments, so there's no academic-honesty concern with posting them publicly.
 
